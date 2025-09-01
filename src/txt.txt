@@ -1,0 +1,350 @@
+
+
+==============================================================================================================
+import React, { useState, useEffect } from "react";
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { TbArrowBadgeRightFilled } from "react-icons/tb";
+
+const Projects = () => {
+  const slides = [
+    {
+      url: "https://images.template.net/wp-content/uploads/2015/04/Architectural-Model1.jpg",
+      title: "Beach",
+    },
+    {
+      url: "https://images.template.net/wp-content/uploads/2015/04/Architectural-Designer1.jpg",
+      title: "Mountain",
+    },
+    {
+      url: "https://lifeofanarchitect.com/wp-content/uploads/2021/05/First-House-Plan-A201.png",
+      title: "Ocean",
+    },
+    {
+      url: "https://interscaleedu.com/en/blog/wp-content/uploads/2024/03/bim-scaler-what-is-architectural-drafting-1024x737.webp",
+      title: "Forest",
+    },
+  ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Auto slide every 3s
+  useEffect(() => {
+    const timer = setInterval(() => {
+      nextSlide();
+    }, 3000);
+    return () => clearInterval(timer);
+  }, [currentIndex]);
+
+  const prevSlide = () => {
+    const isFirstSlide = currentIndex === 0;
+    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const nextSlide = () => {
+    const isLastSlide = currentIndex === slides.length - 1;
+    const newIndex = isLastSlide ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex);
+  };
+
+  return (
+    <div className="max-w-[1240px] m-auto relative z-0 ">
+      <div className="projectBox grid gap-4 grid-rows-2 md:grid-rows-1 md:grid-cols-3 px-4">
+        <div className="md:pr-[20%]">
+          <h1 className="py-2 text-3xl md:text-4xl font-semibold ">
+            Living Room
+          </h1>
+          <p className="py-2 text-[#5a5a5a] text-xs md:text-base tracking-wide font-light">
+            You can use a few enticing words and flaunt your capabilities that
+            will attract future clients and encourage them to hire you right
+            away.
+          </p>
+          <div className="text-xs md:text-base">
+            <ul className="text-[##5a5a5a] ">
+              <li className="py-1">
+                <p className="">
+                  <span className="flex items-center content-center">
+                    <span>
+                      <TbArrowBadgeRightFilled className="" />
+                    </span>
+                    <span className="text-[##5a5a5a] mx-1 md:mx-2">
+                      First specification list goes here
+                    </span>
+                  </span>
+                </p>
+              </li>
+              <li className="py-1">
+                <p className="">
+                  <span className="flex items-center content-center">
+                    <span>
+                      <TbArrowBadgeRightFilled className="" />
+                    </span>
+                    <span className="mx-1 md:mx-2">
+                      Second specification list here
+                    </span>
+                  </span>
+                </p>
+              </li>
+              <li className="py-1">
+                <p className="">
+                  <span className="flex items-center content-center">
+                    <span>
+                      <TbArrowBadgeRightFilled className="" />
+                    </span>
+                    <span className="mx-1 md:mx-2">
+                      Third specification list goes here
+                    </span>
+                  </span>
+                </p>
+              </li>
+              <li className="py-1">
+                <p className="">
+                  <span className="flex items-center content-center">
+                    <span>
+                      <TbArrowBadgeRightFilled className="" />
+                    </span>
+                    <span className="mx-1 md:mx-2">
+                      And another one goes here
+                    </span>
+                  </span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="col-span-2">
+          <div className=" max-w-[800px] h-[250px] md:h-[400px] w-full m-auto relative group">
+            <div
+              className="w-full h-full bg-center bg-cover duration-500"
+              style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+            ></div>
+
+            <div
+              className=" absolute top-1/2 left-10 -translate-y-1/2 text-2xl  text-black cursor-pointer"
+              onClick={prevSlide}
+            >
+              ❮
+            </div>
+
+            <div
+              className=" absolute top-1/2 right-10 -translate-y-1/2 text-2xl   text-black cursor-pointer"
+              onClick={nextSlide}
+            >
+              ❯
+            </div>
+
+            <div className="flex top-4 justify-center py-2">
+              {slides.map((_, index) => (
+                <div
+                  key={index}
+                  onClick={() => setCurrentIndex(index)}
+                  className={`w-1 h-1 mx-2 rounded-full cursor-pointer ${
+                    index === currentIndex ? "bg-black" : "bg-gray-400"
+                  }`}
+                ></div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="projectBox grid gap-4 grid-rows-2 md:grid-rows-1 md:grid-cols-3 px-4">
+        <div className="md:pr-[20%]">
+          <h1 className="py-2 text-3xl md:text-4xl font-semibold ">
+            Living Room
+          </h1>
+          <p className="py-2 text-[#5a5a5a] text-xs md:text-base tracking-wide font-light">
+            You can use a few enticing words and flaunt your capabilities that
+            will attract future clients and encourage them to hire you right
+            away.
+          </p>
+          <div className="text-xs md:text-base">
+            <ul className="text-[##5a5a5a] ">
+              <li className="py-1">
+                <p className="">
+                  <span className="flex items-center content-center">
+                    <span>
+                      <TbArrowBadgeRightFilled className="" />
+                    </span>
+                    <span className="text-[##5a5a5a] mx-1 md:mx-2">
+                      First specification list goes here
+                    </span>
+                  </span>
+                </p>
+              </li>
+              <li className="py-1">
+                <p className="">
+                  <span className="flex items-center content-center">
+                    <span>
+                      <TbArrowBadgeRightFilled className="" />
+                    </span>
+                    <span className="mx-1 md:mx-2">
+                      Second specification list here
+                    </span>
+                  </span>
+                </p>
+              </li>
+              <li className="py-1">
+                <p className="">
+                  <span className="flex items-center content-center">
+                    <span>
+                      <TbArrowBadgeRightFilled className="" />
+                    </span>
+                    <span className="mx-1 md:mx-2">
+                      Third specification list goes here
+                    </span>
+                  </span>
+                </p>
+              </li>
+              <li className="py-1">
+                <p className="">
+                  <span className="flex items-center content-center">
+                    <span>
+                      <TbArrowBadgeRightFilled className="" />
+                    </span>
+                    <span className="mx-1 md:mx-2">
+                      And another one goes here
+                    </span>
+                  </span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="col-span-2">
+          <div className=" max-w-[800px] h-[250px] md:h-[400px] w-full m-auto relative group">
+            <div
+              className="w-full h-full bg-center bg-cover duration-500"
+              style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+            ></div>
+
+            <div
+              className=" absolute top-1/2 left-10 -translate-y-1/2 text-2xl  text-black cursor-pointer"
+              onClick={prevSlide}
+            >
+              ❮
+            </div>
+
+            <div
+              className=" absolute top-1/2 right-10 -translate-y-1/2 text-2xl   text-black cursor-pointer"
+              onClick={nextSlide}
+            >
+              ❯
+            </div>
+
+            <div className="flex top-4 justify-center py-2">
+              {slides.map((_, index) => (
+                <div
+                  key={index}
+                  onClick={() => setCurrentIndex(index)}
+                  className={`w-1 h-1 mx-2 rounded-full cursor-pointer ${
+                    index === currentIndex ? "bg-black" : "bg-gray-400"
+                  }`}
+                ></div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="projectBox grid gap-4 grid-rows-2 md:grid-rows-1 md:grid-cols-3 px-4">
+        <div className="md:pr-[20%]">
+          <h1 className="py-2 text-3xl md:text-4xl font-semibold ">
+            Living Room
+          </h1>
+          <p className="py-2 text-[#5a5a5a] text-xs md:text-base tracking-wide font-light">
+            You can use a few enticing words and flaunt your capabilities that
+            will attract future clients and encourage them to hire you right
+            away.
+          </p>
+          <div className="text-xs md:text-base">
+            <ul className="text-[##5a5a5a] ">
+              <li className="py-1">
+                <p className="">
+                  <span className="flex items-center content-center">
+                    <span>
+                      <TbArrowBadgeRightFilled className="" />
+                    </span>
+                    <span className="text-[##5a5a5a] mx-1 md:mx-2">
+                      First specification list goes here
+                    </span>
+                  </span>
+                </p>
+              </li>
+              <li className="py-1">
+                <p className="">
+                  <span className="flex items-center content-center">
+                    <span>
+                      <TbArrowBadgeRightFilled className="" />
+                    </span>
+                    <span className="mx-1 md:mx-2">
+                      Second specification list here
+                    </span>
+                  </span>
+                </p>
+              </li>
+              <li className="py-1">
+                <p className="">
+                  <span className="flex items-center content-center">
+                    <span>
+                      <TbArrowBadgeRightFilled className="" />
+                    </span>
+                    <span className="mx-1 md:mx-2">
+                      Third specification list goes here
+                    </span>
+                  </span>
+                </p>
+              </li>
+              <li className="py-1">
+                <p className="">
+                  <span className="flex items-center content-center">
+                    <span>
+                      <TbArrowBadgeRightFilled className="" />
+                    </span>
+                    <span className="mx-1 md:mx-2">
+                      And another one goes here
+                    </span>
+                  </span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="col-span-2">
+          <div className=" max-w-[800px] h-[250px] md:h-[400px] w-full m-auto relative group">
+            <div
+              className="w-full h-full bg-center bg-cover duration-500"
+              style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+            ></div>
+
+            <div
+              className=" absolute top-1/2 left-10 -translate-y-1/2 text-2xl  text-black cursor-pointer"
+              onClick={prevSlide}
+            >
+              ❮
+            </div>
+
+            <div
+              className=" absolute top-1/2 right-10 -translate-y-1/2 text-2xl   text-black cursor-pointer"
+              onClick={nextSlide}
+            >
+              ❯
+            </div>
+
+            <div className="flex top-4 justify-center py-2">
+              {slides.map((_, index) => (
+                <div
+                  key={index}
+                  onClick={() => setCurrentIndex(index)}
+                  className={`w-1 h-1 mx-2 rounded-full cursor-pointer ${
+                    index === currentIndex ? "bg-black" : "bg-gray-400"
+                  }`}
+                ></div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Projects;

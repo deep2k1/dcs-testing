@@ -1,0 +1,780 @@
+[
+  {
+    "id": "cad_page",
+    "hero": {
+      "title": "CAD Services",
+      "button": { "text": "Submit Your Requirements", "href": "/submit" }
+    },
+    "introSection": {
+      "heading": "Professional Structural Modeling Services for Effective Project Delivery",
+      "text": [
+        "Cadbricks offers top-quality Structural Modeling Services in the USA. We help create detailed 3D models for various structural elements...",
+        "We use the latest software tools to deliver precise structural models. Our models include all components like beams, columns, and foundations..."
+      ],
+      "image": "https://interscaleedu.com/en/blog/wp-content/uploads/2024/03/bim-scaler-what-is-architectural-drafting-1024x737.webp"
+    },
+    "servicesSection": {
+      "heading": "Transform Your Design Process with Structural Modeling Services",
+      "description": "Our Structural Modeling Services support a range of projects...",
+      "servicesList": [
+        {
+          "id": "TwoD_Drafting",
+          "hero": {
+            "title": "2D Drafting Services",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "ThreeD_CAD",
+          "hero": {
+            "title": "3D CAD Services",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "Architectural_CAD",
+          "hero": {
+            "title": "Architectural CAD Drafting",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "Structural_CAD",
+          "hero": {
+            "title": "Structural CAD Drafting",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "MEP_CAD",
+          "hero": {
+            "title": "MEP CAD Drafting",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "PDF_to_CAD",
+          "hero": {
+            "title": "PDF/Paper to CAD Conversion",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "As_Built",
+          "hero": {
+            "title": "As-Built Drawings",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "CAD_Documentation",
+          "hero": {
+            "title": "CAD Documentation",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "bim_page",
+    "hero": {
+      "title": "BIM Services",
+      "button": {
+        "text": "Submit Your Requirements",
+        "href": "/submit"
+      }
+    },
+    "introSection": {
+      "heading": "Comprehensive MEP Scan to BIM Solutions",
+      "text": [
+        "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+        "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+      ],
+      "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+    },
+    "servicesSection": {
+      "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+      "description": [
+        "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+        "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+      ],
+      "servicesList": [
+        {
+          "id": "Architectural_BIM",
+          "hero": {
+            "title": "Architectural BIM",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "Revit_family_creation",
+          "hero": {
+            "title": "Revit family creation",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "CAD_TO_BIM",
+          "hero": {
+            "title": "CAD TO BIM",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "Scan_To_BIM",
+          "hero": {
+            "title": "Scan To BIM",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "PDF_To_Revit",
+          "hero": {
+            "title": "PDF To Revit",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "4D_BIM",
+          "hero": {
+            "title": "4D BIM Services",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "5D_BIM",
+          "hero": {
+            "title": "5D BIM Services",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "Clash_Detection",
+          "hero": {
+            "title": "Clash Detection",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "Structural_BIM_Modeling_Service",
+          "hero": {
+            "title": "Structural BIM Modeling Service",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "BIM_Facility_Management",
+          "hero": {
+            "title": "Bim Facility Management",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "BIM_Coordination",
+          "hero": {
+            "title": "BIM Coordination Services",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "MEP_BIM",
+          "hero": {
+            "title": "MEP BIM Modeling Services",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "Shop_Drawings",
+    "hero": {
+      "title": "Shop Drawings Services",
+      "button": {
+        "text": "Submit Your Requirements",
+        "href": "/submit"
+      }
+    },
+    "introSection": {
+      "heading": "Comprehensive MEP Scan to BIM Solutions",
+      "text": [
+        "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+        "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+      ],
+      "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+    },
+    "servicesSection": {
+      "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+      "description": [
+        "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+        "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+      ],
+      "servicesList": [
+        {
+          "id": "Glazing_shop",
+          "hero": {
+            "title": "Glazing shop drawing",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "Millwork_Shop",
+          "hero": {
+            "title": "Millwork Shop Drawings",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "Structural_Steel",
+          "hero": {
+            "title": "Structural Steel Shop Drawings",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "3D_modeling",
+    "hero": {
+      "title": "3D Modeling Services",
+      "button": {
+        "text": "Submit Your Requirements",
+        "href": "/submit"
+      }
+    },
+    "introSection": {
+      "heading": "Comprehensive MEP Scan to BIM Solutions",
+      "text": [
+        "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+        "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+      ],
+      "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+    },
+    "servicesSection": {
+      "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+      "description": [
+        "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+        "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+      ],
+      "servicesList": [
+        {
+          "id": "Revit_Modeling",
+          "hero": {
+            "title": "Revit Modeling Services",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "CAD_Modeling",
+          "hero": {
+            "title": "CAD Modeling Services",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        },
+        {
+          "id": "SketchUp_Modeling",
+          "hero": {
+            "title": "Structural Steel Shop Drawings",
+            "button": {
+              "text": "Submit Your Requirements",
+              "href": "/submit"
+            }
+          },
+          "introSection": {
+            "heading": "Comprehensive MEP Scan to BIM Solutions",
+            "text": [
+              "Cadbricks offers MEP Scan to BIM services to help you transition from as-built conditions to accurate 3D models. We use advanced laser scanning technology to capture precise measurements of your existing MEP systems. This data is then converted into a digital BIM model, ensuring your project is accurate and up-to-date.",
+              "Our team focuses on delivering high-quality, precise MEP models that are ready for use in your design and construction processes. By converting point cloud data into BIM, we provide detailed representations of mechanical, electrical, and plumbing systems. This enhances coordination and minimizes errors during the project lifecycle."
+            ],
+            "image": "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg"
+          },
+          "servicesSection": {
+            "heading": "Advanced MEP Scan to BIM for Better Project Accuracy",
+            "description": [
+              "With our MEP Scan to BIM services, you can streamline the planning and execution of your project. The digital models we create improve collaboration between architects, engineers, and contractors. Our services help reduce costs and delays by ensuring that all stakeholders work with the same accurate data.",
+              "At Cadbricks, we understand the importance of quality and accuracy in every phase of your project. Our MEP Scan to BIM services provide a solid foundation for successful project execution. We deliver models that are not only precise but also efficient for your project’s specific needs."
+            ],
+            "servicesList": ["3D Modeling", "Architectural Modeling"]
+          }
+        }
+      ]
+    }
+  }
+]
