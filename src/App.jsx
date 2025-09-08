@@ -1,62 +1,30 @@
-import ErrorPage from "./components/ErrorPage";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import RootLayout from "./components/Common/RootLayout";
 import HomePage from "./components/HomePage/HomePage";
 import AboutPage from "./components/CompanyPage/AboutPage/AboutPage";
-import "./App.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MainServicesPage from "./components/MainServicesPage/MainServicesPage";
-import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
-import ContactPage from "./components/ContactPage/ContactPage";
 import WorkPage from "./components/CompanyPage/WorkPage/WorkPage";
+import MainServicesPage from "./components/MainServicesPage/MainServicesPage";
 import ServicePage from "./components/MainServicesPage/ServicePage/ServicePage";
-import SubServicePage from "./components/MainServicesPage/SubServicePage/SubServicePage";
+import ContactPage from "./components/ContactPage/ContactPage";
+import ErrorPage from "./components/ErrorPage";
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <HomePage />,
-      errorElement: <ErrorPage />, // optional
-    },
-    {
-      path: "/about",
-      element: <AboutPage />,
-    },
-    {
-      path: "/work",
-      element: <WorkPage />,
-    },
-    {
-      path: "/services",
-      element: <MainServicesPage />,
-    },
-    // Sub-Services pages
-    {
-      path: "/services/:id",
-      element: <ServicePage />,
-    },
-    {
-      path: "/services/:id/:subId",
-      element: <SubServicePage />, // sub-service
-    },
-    // {
-    //   path: "/services/cad_page", // ✅ standalone
-    //   element: <CADPage />,
-    // },
-    // {
-    //   path: "/services/bim_page", // ✅ standalone
-    //   element: <BIMPage />,
-    // },
-    {
-      path: "/projects",
-      element: <ProjectsPage />,
-    },
-    {
-      path: "/contact",
-      element: <ContactPage />,
-    },
-    {
-      path: "*", // catch-all route for 404s
-      element: <ErrorPage />,
+      element: <RootLayout />,
+      errorElement: <ErrorPage />,
+      children: [
+        { index: true, element: <HomePage /> }, // ✅ localhost:3000/
+        { path: "dcs-testing", element: <HomePage /> }, // ✅ github.io/dcs-testing/
+        { path: "about", element: <AboutPage /> },
+        { path: "work", element: <WorkPage /> },
+        { path: "services", element: <MainServicesPage /> },
+        { path: "services/:id", element: <ServicePage /> },
+        { path: "contact", element: <ContactPage /> },
+        { path: "*", element: <ErrorPage /> },
+      ],
     },
   ]);
 

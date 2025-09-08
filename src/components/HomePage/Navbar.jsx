@@ -1,12 +1,8 @@
-import { useState, useEffect } from "react";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import {
-  RiArrowRightSFill,
-  RiArrowDownSFill,
-  RiArrowUpSFill,
-} from "react-icons/ri";
+import { RiArrowDownSFill, RiArrowUpSFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import Data from "../../api/api.jsx";
 
 const navLinks = [
   { name: "Home", href: "/" },
@@ -25,132 +21,36 @@ const navLinks = [
       {
         name: "CAD Services",
         href: "/services/cad_page",
-        subDropdown: [
-          { name: "2D Drafting", href: "/services/cad_page/TwoD_Drafting" },
-          { name: "3D CAD Modeling", href: "/services/cad_page/ThreeD_CAD" },
-          {
-            name: "Architectural CAD Drafting",
-            href: "/services/cad_page/Architectural_CAD",
-          },
-          {
-            name: "Structural CAD Drafting",
-            href: "/services/cad_page/Structural_CAD",
-          },
-          { name: "MEP CAD Drafting", href: "/services/cad_page/MEP_CAD" },
-          {
-            name: "PDF/Paper to CAD Conversion",
-            href: "/services/cad_page/PDF_to_CAD",
-          },
-          {
-            name: "As-Built Drawings",
-            href: "/services/cad_page/As_Built",
-          },
-          {
-            name: "CAD Documentation",
-            href: "/services/cad_page/CAD_Documentation",
-          },
-        ],
       },
       {
         name: "BIM Services",
         href: "/services/bim_page",
-        subDropdown: [
-          {
-            name: "Architectural BIM",
-            href: "/services/bim_page/Architectural_BIM",
-          },
-          {
-            name: "Revit family creation",
-            href: "/services/bim_page/Revit_family_creation",
-          },
-          { name: "CAD TO BIM", href: "/services/bim_page/CAD_TO_BIM" },
-          { name: "Scan To BIM", href: "/services/bim_page/Scan_To_BIM" },
-          { name: "PDF To Revit", href: "/services/bim_page/PDF_To_Revit" },
-          { name: "4D BIM Services", href: "/services/bim_page/4D_BIM" },
-          { name: "5D BIM Services", href: "/services/bim_page/5D_BIM" },
-          {
-            name: "Clash Detection",
-            href: "/services/bim_page/Clash_Detection",
-          },
-          {
-            name: "Structural BIM Modeling Service",
-            href: "/services/bim_page/Structural_BIM_Modeling_Service",
-          },
-          {
-            name: "Bim Facility Management",
-            href: "/services/bim_page/BIM_Facility_Management",
-          },
-          {
-            name: "BIM Coordination Services",
-            href: "/services/bim_page/BIM_Coordination",
-          },
-          {
-            name: "MEP BIM Modeling Services",
-            href: "/services/bim_page/MEP_BIM",
-          },
-        ],
       },
       {
         name: "Shop Drawing Services",
-        href: "/services/Shop_Drawings",
-        subDropdown: [
-          {
-            name: "Glazing shop drawing",
-            href: "/services/Shop_Drawings/Glazing_shop",
-          },
-          {
-            name: "Millwork Shop Drawings",
-            href: "/services/Shop_Drawings/Millwork_Shop",
-          },
-          {
-            name: "Structural Steel Shop Drawings",
-            href: "/services/Shop_Drawings/Structural_Steel",
-          },
-        ],
+        href: "/services/shop_drawings",
       },
       {
         name: "3D Modeling Services",
-        href: "/services/3D_modeling",
-        subDropdown: [
-          {
-            name: "Revit Modeling Services",
-            href: "/services/3D_modeling/Revit_Modeling",
-          },
-          {
-            name: "CAD Modeling Services",
-            href: "/services/3D_modeling/CAD_Modeling",
-          },
-          {
-            name: "Structural Steel Shop Drawings",
-            href: "/services/3D_modeling/SketchUp_Modeling",
-          },
-        ],
+        href: "/services/3d_modeling",
       },
     ],
   },
-  // { name: "Projects", href: "/projects" },
   { name: "Contact us", href: "/contact", button: true },
 ];
 
 const Navbar = ({ styled }) => {
   const [nav, setNav] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
-  const [openSubDropdown, setOpenSubDropdown] = useState(null);
 
   const handleMenu = () => setNav(!nav);
   const closeMenu = () => {
     setNav(false);
     setOpenDropdown(null);
-    setOpenSubDropdown(null);
   };
 
   const toggleDropdown = (index) => {
     setOpenDropdown(openDropdown === index ? null : index);
-    setOpenSubDropdown(null); // close sub when switching
-  };
-
-  const toggleSubDropdown = (index) => {
-    setOpenSubDropdown(openSubDropdown === index ? null : index);
   };
 
   // ✅ Close mobile nav automatically on desktop resize
@@ -159,7 +59,6 @@ const Navbar = ({ styled }) => {
       if (window.innerWidth >= 768) {
         setNav(false);
         setOpenDropdown(null);
-        setOpenSubDropdown(null);
       }
     };
     window.addEventListener("resize", handleResize);
@@ -173,8 +72,8 @@ const Navbar = ({ styled }) => {
           <div className="md:py-2 flex justify-between items-center bg-transparent ">
             <div className="flex md:grid grid-cols-2 w-full">
               {/* Logo */}
-              <h6 className="text-2xl p-4 leading-[1] font-bold cursor-pointer">
-                <Link to="/" className="block text-black ">
+              <h6 className="text-2xl px-4 py-3 md:py-4 leading-[1.1] font-bold">
+                <Link to="" className={`${styled} cursor-pointer`}>
                   DRAFT CAD <br />
                   <span className="text-blue-500">SOLUTION</span>
                 </Link>
@@ -192,12 +91,12 @@ const Navbar = ({ styled }) => {
                         </li>
 
                         {/* First-level dropdown */}
-                        <div className="absolute opacity-0 shadow-md group-hover:opacity-100 w-[220px] bg-[#d4d4d4]">
+                        <div className="absolute opacity-0 shadow-md group-hover:opacity-100 w-[220px] bg-[#f8f8f8]">
                           <ul className="hidden group-hover:block text-black text-center transition-all duration-300 ease-in-out">
                             {link.dropdown.map((item, i) => (
                               <li
                                 key={i}
-                                className="hover:bg-[#ffffff] flex items-center justify-between px-4 relative group/item transition delay-75 duration-300 ease-in-out hover:-translate-1 hover:scale-105"
+                                className="hover:bg-[#fbfbfb] flex items-center justify-between px-4 relative group/item transition delay-75 duration-300 ease-in-out hover:-translate-1 hover:scale-105"
                               >
                                 <Link
                                   to={item.href}
@@ -205,30 +104,6 @@ const Navbar = ({ styled }) => {
                                 >
                                   {item.name}
                                 </Link>
-
-                                {/* SubDropdown opens when hovering the Dropdown */}
-                                {item.subDropdown && (
-                                  <div className="relative  ">
-                                    <RiArrowRightSFill
-                                      size={20}
-                                      className="text-black ml-2"
-                                    />
-                                    <div className="absolute top-0 left-full hidden group-hover/item:block bg-white shadow-md w-[220px]">
-                                      <ul>
-                                        {item.subDropdown.map((sub, j) => (
-                                          <li
-                                            key={j}
-                                            className="hover:bg-gray-100 px-4 py-2 text-left transition delay-75 duration-300 ease-in-out hover:-translate-1 hover:scale-105"
-                                          >
-                                            <Link to={sub.href}>
-                                              {sub.name}
-                                            </Link>
-                                          </li>
-                                        ))}
-                                      </ul>
-                                    </div>
-                                  </div>
-                                )}
                               </li>
                             ))}
                           </ul>
@@ -287,14 +162,14 @@ const Navbar = ({ styled }) => {
 
             {/* Mobile Menu */}
             <div
-              className={`fixed top-0 left-0 h-full w-[100%] bg-white text-black text-center border-r border-black
+              className={`fixed top-0 left-0 h-full w-[100%] bg-[#fbfbfb] text-black text-center border-r border-black
             transition-all duration-300 ease-in-out z-50 ${
               nav ? "translate-x-0" : "-translate-x-full"
             } md:hidden`}
             >
               <ul className="flex flex-col items-center font-sans">
                 <li className="w-full pt-4.5 font-bold cursor-pointer">
-                  <Link to="/" onClick={closeMenu}>
+                  <Link to="" onClick={closeMenu}>
                     DRAFT CAD <br />
                     <span className="text-blue-500">SOLUTION</span>
                   </Link>
@@ -326,42 +201,9 @@ const Navbar = ({ styled }) => {
                                 key={i}
                                 className="py-2 border-b border-gray-300"
                               >
-                                {item.subDropdown ? (
-                                  <>
-                                    <div
-                                      className="flex justify-between items-center cursor-pointer"
-                                      onClick={() => toggleSubDropdown(i)}
-                                    >
-                                      <span>{item.name}</span>
-                                      {openSubDropdown === i ? (
-                                        <RiArrowUpSFill />
-                                      ) : (
-                                        <RiArrowDownSFill />
-                                      )}
-                                    </div>
-                                    {openSubDropdown === i && (
-                                      <ul className="ml-4 mt-2">
-                                        {item.subDropdown.map((sub, j) => (
-                                          <li
-                                            key={j}
-                                            className="py-2 border-b border-gray-200"
-                                          >
-                                            <Link
-                                              to={sub.href}
-                                              onClick={closeMenu}
-                                            >
-                                              {sub.name}
-                                            </Link>
-                                          </li>
-                                        ))}
-                                      </ul>
-                                    )}
-                                  </>
-                                ) : (
-                                  <Link to={item.href} onClick={closeMenu}>
-                                    {item.name}
-                                  </Link>
-                                )}
+                                <Link to={item.href} onClick={closeMenu}>
+                                  {item.name}
+                                </Link>
                               </li>
                             ))}
                           </ul>

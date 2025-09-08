@@ -33,18 +33,18 @@ const MailBox = () => {
         <input
           type="email"
           placeholder="EMAIL"
-          className="mb-4 border-1 border-dotted bg-white p-2 w-[90%]"
+          className="mb-4 border-1 border-dotted bg-[#fbfbfb] p-2 w-[90%]"
           onChange={(e) => setEmail(e.target.value)}
         />
         <input
           type="text"
           placeholder="SUBJECT"
-          className="mb-4 border-1 border-dotted bg-white p-2 w-[90%]"
+          className="mb-4 border-1 border-dotted bg-[#fbfbfb] p-2 w-[90%]"
           onChange={(e) => setSubject(e.target.value)}
         />
         <textarea
           type="text"
-          className=" h-40 mb-4 border-1 border-dotted bg-white p-2 w-[90%] focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className=" h-40 mb-4 border-1 border-dotted bg-[#fbfbfb] p-2 w-[90%] focus:outline-none focus:ring-2 focus:ring-blue-500"
           placeholder="MESSAGE"
           onChange={(e) => setMessage(e.target.value)}
         />

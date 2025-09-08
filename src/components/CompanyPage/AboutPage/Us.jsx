@@ -5,7 +5,7 @@ import { FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
 const Us = () => {
   return (
     <div className=" py-10">
-      <div className="max-w-[1240px] m-auto relative z-0 ">
+      <div className="max-w-[1240px] m-auto relative z-0 px-4">
         <div className="grid grid-rows-2 gap-x-4 grid-cols-1 md:grid-rows-1 md:grid-cols-3">
           <div>
             <h1 className="text-2xl md:text-4xl font-semibold ">

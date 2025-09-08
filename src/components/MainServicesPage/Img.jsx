@@ -1,14 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-const Img = () => {
-  const slider = [
-    {
-      url: "https://interscaleedu.com/en/blog/wp-content/uploads/2024/03/bim-scaler-what-is-architectural-drafting-1024x737.webp",
-    },
-    {
-      url: "https://www.shutterstock.com/image-photo/architects-concept-engineer-architect-designer-600nw-2478691889.jpg",
-    },
-  ];
+const Img = ({ image }) => {
+  const slider = image.map((url) => ({ url }));
 
   const [currentIndex, setCurrentIndex] = useState(0);
 

@@ -1,3 +1,4 @@
+// src/components/ServicePage/ServicePage.jsx
 import React from "react";
 import { useParams } from "react-router-dom";
 import Navbar from "../../HomePage/Navbar";
@@ -8,35 +9,57 @@ import Content from "../Content";
 import Img from "../Img";
 import ShowServices from "../ShowServices";
 import Portfolio from "../Portfolio";
-import Data from "../../../api/api.json";
+import Data from "../../../api/api.jsx";
+import ErrorPage from "../../ErrorPage.jsx";
 
 const ServicePage = () => {
-  const { id } = useParams(); // e.g. cad_page
-  const serviceData = Data.find((item) => item.id === id);
+  const { id } = useParams();
 
+  // ✅ Define serviceData safely
+  const serviceData = Data.find((page) => page.id === id);
+
+  // ✅ Handle invalid URL / missing data
   if (!serviceData) {
-    return <div className="text-center p-20">Service not found</div>;
+    return <ErrorPage />;
   }
 
   return (
     <>
-      <Navbar styled={"BgColor"} />
+      <Navbar styled="BgColor" />
       <Space />
-      <Header title={serviceData.hero.title} button={serviceData.hero.button} />
-      <Content
-        heading={serviceData.introSection.heading}
-        text={serviceData.introSection.text}
-      />
-      <Img image={serviceData.introSection.image} />
-      <ShowServices
-        heading={serviceData.servicesSection.heading}
-        description={serviceData.servicesSection.description}
-        list={serviceData.servicesSection.servicesList}
-      />
+
+      {/* Hero / Header Section */}
+      {serviceData.hero?.title && <Header title={serviceData.hero.title} />}
+
+      {/* Intro / Content Section */}
+      {serviceData.introSection && (
+        <Content
+          heading={serviceData.introSection?.heading || ""}
+          text={serviceData.introSection?.text || []}
+        />
+      )}
+
+      {/* Image Section */}
+      {serviceData.introSection?.imageSlider && (
+        <Img image={serviceData.introSection.imageSlider} />
+      )}
+
+      {/* Services Section */}
+      {serviceData.servicesSection && (
+        <ShowServices
+          heading={serviceData.servicesSection?.heading || ""}
+          description={serviceData.servicesSection?.description || []}
+          list={serviceData.servicesSection?.servicesList || []}
+        />
+      )}
+
+      {/* Portfolio Section */}
       <Portfolio />
+
+      {/* Footer Section */}
       <Footer
-        highTxt={"Get In Touch"}
-        para={"Your vision, our precision. Contact us today to get started!"}
+        heading={serviceData.footerSection?.heading || "Get in Touch"}
+        description={serviceData.footerSection?.description || []}
       />
     </>
   );

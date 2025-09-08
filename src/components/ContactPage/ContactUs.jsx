@@ -5,7 +5,7 @@ import MailBox from "./MailBox";
 
 const ContactUs = () => {
   return (
-    <div className="max-w-full m-auto relative z-0 bg-transparent py-40">
+    <div className="max-w-full m-auto relative z-0 bg-transparent py-30">
       <div className="max-w-[1240px] m-auto px-4">
         <div className="w-full grid gap-10 md:gap-10 grid-rows-3 md:grid-rows-1 md:grid-cols-3">
           <div className="flex flex-col gap-8">
@@ -35,7 +35,7 @@ const ContactUs = () => {
             </div>
             <div>
               <h2 className="text-lg py-2 md:text-2xl font-semibold ">
-                My Location
+                Our Location
               </h2>
               <p className="py-2 text-[#5a5a5a] text-[15px] tracking-wide font-light">
                 Ahmedabad, India — Serving Clients Worldwide
@@ -49,7 +49,7 @@ const ContactUs = () => {
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.74842920963!2d72.41492881144384!3d23.020474101422124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1756623603754!5m2!1sen!2sin"
               frameborder="0"
-              className="w-full h-[450px]"
+              className="w-full h-[400px]"
             ></iframe>
           </div>
         </div>

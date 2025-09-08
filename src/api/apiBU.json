@@ -6,9 +6,9 @@
       "button": { "text": "Submit Your Requirements", "href": "/submit" }
     },
     "introSection": {
-      "heading": "Professional Structural Modeling Services for Effective Project Delivery",
+      "heading": "Precision CAD Solutions for Smarter Project Delivery",
       "text": [
-        "Cadbricks offers top-quality Structural Modeling Services in the USA. We help create detailed 3D models for various structural elements...",
+        "Our CAD services are designed to simplify your workflow and ensure accuracy at every stage. From concept to execution, we deliver drawings and models that reduce errors, save time, and help projects move forward seamlessly",
         "We use the latest software tools to deliver precise structural models. Our models include all components like beams, columns, and foundations..."
       ],
       "image": "https://interscaleedu.com/en/blog/wp-content/uploads/2024/03/bim-scaler-what-is-architectural-drafting-1024x737.webp"
@@ -72,7 +72,7 @@
         {
           "id": "Architectural_CAD",
           "hero": {
-            "title": "Architectural CAD Drafting",
+            "title": "3D CAD Services",
             "button": {
               "text": "Submit Your Requirements",
               "href": "/submit"

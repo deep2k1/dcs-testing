@@ -16,7 +16,6 @@ const WorkPage = () => {
         text={
           "We turn ideas into precise, construction-ready designs. Our CAD drafting, BIM modeling, and 3D visualization services ensure every project—residential, commercial, or industrial—moves forward with accuracy and confidence."
         }
-        line={"Precision in every line, clarity in every project."}
       />
       <Step />
       <Footer />

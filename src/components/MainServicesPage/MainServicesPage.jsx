@@ -1,12 +1,11 @@
 import React from "react";
-// import Exemplary from "./Exemplary";
 import Navbar from "../HomePage/Navbar";
 import Footer from "../HomePage/Footer";
-import Services from "./Services";
 import Hero from "../CompanyPage/AboutPage/Hero";
 import Expertise from "./Expertise";
 import OurExpertise from "./OurExpertise";
 import Space from "../Common/Space";
+import OurServices from "../HomePage/OurServices";
 
 const MainServicesPage = () => {
   return (
@@ -22,7 +21,7 @@ const MainServicesPage = () => {
       />
       {/* <Exemplary /> */}
       <Expertise />
-      <Services />
+      <OurServices />
       <OurExpertise />
       <Footer />
     </>

@@ -1,6 +1,6 @@
 import React from "react";
 import { PiWashingMachineFill } from "react-icons/pi";
-import { GiPizzaCutter } from "react-icons/gi";
+import { PiToolboxFill } from "react-icons/pi";
 import { MdDashboardCustomize } from "react-icons/md";
 import { FaTeamspeak } from "react-icons/fa6";
 import { RiTimerFill } from "react-icons/ri";
@@ -23,7 +23,7 @@ const featuresData = [
   },
   {
     id: 3,
-    icon: <GiPizzaCutter size={60} />,
+    icon: <PiToolboxFill size={60} />,
     title: "Cutting-Edge Tools",
     description:
       "Leveraging the latest CAD technology to deliver innovative and efficient results.",

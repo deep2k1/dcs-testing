@@ -8,32 +8,32 @@ const coreValues = [
   {
     icon: GrIntegration,
     title: "Integrity",
-    desc: "We uphold honesty and transparency in every interaction, ensuring our clients receive accurate and trustworthy drafting solutions.",
+    desc: "Work with honesty, transparency, and responsibility.",
   },
   {
     icon: FaFirstOrder,
     title: "Quality First",
-    desc: "Our priority is to provide unmatched quality in all deliverables, combining technical expertise with attention to detail.",
+    desc: "Deliver precise and reliable drawings every time.",
   },
   {
     icon: FcCollaboration,
     title: "Collaboration",
-    desc: "We believe in working hand-in-hand with our clients, architects, and engineers to achieve results that truly reflect their vision.",
+    desc: "Value teamwork and effective communication.",
   },
   {
     icon: BiSolidDetail,
     title: "Innovation",
-    desc: "Through continuous learning and advanced tools, we bring modern approaches that simplify complex projects and enhance outcomes.",
+    desc: "Apply creative solutions and modern techniques.",
   },
   {
     icon: GrIntegration,
     title: "Excellence in Detail",
-    desc: "We aim for precision and perfection in every line and drawing, ensuring reliability and efficiency in all drafting tasks.",
+    desc: "Focus on accuracy and perfection in every detail.",
   },
   {
     icon: FaUser,
     title: "Client-Centered Approach",
-    desc: "Every project is unique, and we adapt our methods to fit client needs, offering personalized solutions and long-term support.",
+    desc: "Prioritize client needs and long-term satisfaction.",
   },
 ];
 
@@ -67,7 +67,7 @@ const Guide = () => {
                   </h2>
                 </div>
                 <p className="py-2 text-[#5a5a5a] text-xs md:text-base tracking-wide font-light">
-                  {/* {value.desc}work */}
+                  {value.desc}
                 </p>
               </div>
             );

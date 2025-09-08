@@ -54,7 +54,7 @@ const OurExpertise = () => {
 
   return (
     <div>
-      <div className="max-w-[1240px] m-auto relative z-0 px-4">
+      <div className="max-w-[1240px] m-auto relative z-0 px-4 pt-10">
         <div className="md:col-span-3 pb-10 ">
           <h1 className="text-3xl md:text-4xl font-bold">Our Expertise</h1>
         </div>
@@ -63,7 +63,7 @@ const OurExpertise = () => {
             return (
               <div
                 key={d.id}
-                className="border-black border-2 flex gap-4 flex-col items-center shadow-2xl shadow-[#5a5a5a] p-6 hover:scale-110 hover:shadow-blue-100 transition "
+                className="border-black border-2 flex gap-4 flex-col items-center shadow-2xl shadow-[#5a5a5a] p-6 hover:scale-110 hover:shadow-blue-100 transition"
               >
                 {d.icon}
                 <p className="text-lg font-semibold">{d.name}</p>
