@@ -41,7 +41,7 @@ const Portfolio = () => {
             ></div>
 
             <Link
-              to="service"
+              to="services"
               className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition duration-500 flex items-end"
             >
               <div className="text-white p-4">
